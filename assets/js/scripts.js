@@ -55,7 +55,7 @@ var diff = (fechaFin - fechaInicio) / 1000;
           thickness: 0.01,
           fgColor: colorCirculosCuentaRegresiva
         },
-        textCSS: 'color:' + colorTextoCuentaRegresiva + ';font-size: 30px !important;font-family: \'Montserrat\', sans-serif;'
+        textCSS: 'color:' + colorTextoCuentaRegresiva + ';font-size: 50px !important;font-family: \'Montserrat\', sans-serif;'
       },
 
 

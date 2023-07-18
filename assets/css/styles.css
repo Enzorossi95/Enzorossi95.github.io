@@ -193,19 +193,19 @@ section.portada{
 
 section.cuenta-regresiva{
   text-align: center;
-  padding-top: 25px;
-  background-color:var(--color-secundario);
-  height: 520px;
+  padding: 40px 0px 0px 0px;
+  height: auto;
+  font-size: 18px;
+  
 }
-
-section.cuenta-regresiva p{
-  color: white;
-}
-
 
 section.cuenta-regresiva .reloj{
-  width: 65%;
+  width: 75%;
   margin: 0 auto;
+}
+
+section.cuenta-regresiva h3{
+  margin-bottom: 30px;
 }
 
 /* ---------- */
@@ -214,15 +214,15 @@ section.cuenta-regresiva .reloj{
 /* Frase */
 
 
-.icon-frase{
+section.frase img.icon{
   width: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 section.frase{
   text-align: center;
-  background-color: var(--color-primario);
-  padding:50px 0px 70px 0px;
+  background-color: var(--color-secundario);
+  padding:20px 0px 40px 0px;
 }
 
 section.frase p{
@@ -237,7 +237,7 @@ section.frase h4{
 /* Ceremonia y Fiesta */
 
 section.ceremonia-fiesta{
-  padding: 70px 0 90px;
+  padding: 20px 0 90px;
 }
 
 section.ceremonia-fiesta .columna{
@@ -267,6 +267,25 @@ section.ceremonia-fiesta .columna img.anillos{
 
 
 /* ---------- */
+
+
+/* Nuestra Boda */
+
+section.nuestraboda{
+  text-align: center;
+  background-color:white;
+}
+
+
+section.nuestraboda h4{
+  margin: 10px;
+}
+
+
+section.nuestraboda  img.icon{
+  width: 150px;
+  margin-bottom: 10px;
+}
 
 
 /* Galeria /Historia */
