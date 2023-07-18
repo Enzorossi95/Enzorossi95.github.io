@@ -1,8 +1,9 @@
 
 
-// Confirmar asistencia parallax
-$('.parallax-canciones').parallax({
-  imageSrc: 'assets/img/canciones.jpg'
+
+// Instagram parallax
+$('.parallax-instagram').parallax({
+  imageSrc: 'assets/img/instagram.jpg'
 
 });
 
@@ -11,13 +12,11 @@ $('.parallax-portada').parallax({
   imageSrc: 'assets/img/portada.jpg'
 });
 
-// Gracias parallax
-$('.parallax-gracias').parallax({
-  imageSrc: 'assets/img/portada.jpg'
-});
-
 // ----------------------
 
+
+
+// Cuenta Regresiva:
 // Cuenta regresiva
 var fechaInicio = new Date().getTime();
 var fechaFin = new Date(fechaCuentaRegresiva).getTime();
@@ -89,3 +88,5 @@ var diff = (fechaFin - fechaInicio) / 1000;
     }
 
   });
+
+

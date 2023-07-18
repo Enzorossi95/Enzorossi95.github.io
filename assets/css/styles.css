@@ -1,61 +1,56 @@
 /* Generales */
 
 :root {
-  --color-primario: #9BB69C;
-}
-
-:root {
-  --color-secundario: #EEDFDE; 
+  --color-primario: #ddc190;
+  --color-secundario: #a4bb8f;
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
-  font-weight: 400;
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 17px;
-  color: #333333;
 }
 
-h4{
-  font-family: 'Libre Baskerville', serif;
-  letter-spacing: 10px;
-  color: #333333;
+
+h4
+{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;c
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 400;
 }
 
-
 .btn{
+  font-family: 'Montserrat', sans-serif;
   color: white;
   background-color: var(--color-primario);
-  border-radius: 0px;
-  padding: 10px 20px;
+  border-radius: 30px;
+  padding: 10px 40px;
   border: 1px solid var(--color-primario);
+  text-transform: uppercase;
 }
 
 .btn:hover{
-  background-color:var(--color-secundario);
-  color: white;
-  border: 1px solid var(--color-secundario);
+  color:var(--color-primario);
+  background-color: white;
 }
 
 .btn-alt{
-  color: black;
-  background-color: rgba(255, 255, 255, 0.6);
-    padding: 10px 20px;
-  border: 1px solid white;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-primario);
+  background-color: white;
 }
 
 .btn-alt:hover{
   color: white;
   background-color: var(--color-primario);
-  border: 1px solid var(--color-primario);
+  border: 1px solid white;
 }
 
 .btn:focus{
@@ -187,21 +182,46 @@ section.portada{
   height: 100vh;
 }
 
+
+
+
 /* ---------- */
 
+
+
+/* Cuenta Regresiva */
+
+section.cuenta-regresiva{
+  text-align: center;
+  padding-top: 25px;
+  background-color:var(--color-secundario);
+  height: 520px;
+}
+
+section.cuenta-regresiva p{
+  color: white;
+}
+
+
+section.cuenta-regresiva .reloj{
+  width: 65%;
+  margin: 0 auto;
+}
+
+/* ---------- */
 
 
 /* Frase */
 
 
-section.frase img.icon{
+.icon-frase{
   width: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 section.frase{
   text-align: center;
-  background-color: var(--color-secundario);
+  background-color: var(--color-primario);
   padding:50px 0px 70px 0px;
 }
 
@@ -214,71 +234,26 @@ section.frase h4{
 }
 
 
-/* ---------- */
-
-
-/* Cuenta Regresiva */
-
-section.cuenta-regresiva{
-  text-align: center;
-  padding: 40px 0px 0px 0px;
-  height: auto;
-  font-size: 18px;
-}
-
-section.cuenta-regresiva .reloj{
-  width: 65%;
-  margin: 0 auto;
-}
-
-/* ---------- */
-
-
-/* Nuestra Boda */
-
-section.nuestraboda{
-  text-align: center;
-  background-color:white;
-}
-
-
-section.nuestraboda h4{
-  margin: 20px;
-}
-
-
-section.nuestraboda  img.icon{
-  width: 150px;
-  margin-bottom: 20px;
-}
-
-/* Cuenta Regresiva */
-
-
-
-/* ---------- */
-
 /* Ceremonia y Fiesta */
 
 section.ceremonia-fiesta{
-  padding: 10px 0 100px;
+  padding: 70px 0 90px;
 }
 
 section.ceremonia-fiesta .columna{
   text-align: center;
-  padding: 0 30px;
+  padding: 15px;
 }
 
-section.ceremonia-fiesta .columna h2{
-  font-weight: 400;
-  font-size: 25px;
+section.ceremonia-fiesta .columna h4{
   margin-top: 15px;
   margin-bottom: 20px;
-  color: var(--color-primario);
+  text-transform: uppercase;
 }
 
 section.ceremonia-fiesta .columna p{
   margin-bottom: 25px;
+
 }
 
 section.ceremonia-fiesta .columna img.icon{
@@ -286,66 +261,27 @@ section.ceremonia-fiesta .columna img.icon{
 }
 
 section.ceremonia-fiesta .columna img.anillos{
-  width: 200px;
+  width: 150px;
 }
 
 
-/* ---------- */
-
-
-/* CONFIRMAR ASISTENCIA */
-
-section.confirmar-asistencia{
-  text-align: center;
-  padding: 70px 0 50px;
-  background-color:var(--color-secundario);
-}
-
-section.confirmar-asistencia h4 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-section.confirmar-asistencia h5 {
-    font-weight: 200;
-    font-size: 30px;
-    text-align: center;
-    margin: 25px;
-}
-
-section.confirmar-asistencia p{
-  margin-bottom: 20px;
-}
-section.confirmar-asistencia p a{
-  margin: 10px;
-}
-
-section.confirmar-asistencia  img.icon{
-  width: 130px;
-}
 
 /* ---------- */
 
 
 /* Galeria /Historia */
-
 section.galeria{
-  padding: 20px 20px 70px 20px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
+section.galeria h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
 section.galeria .item-galeria{
   padding: 0 3px;
   margin-bottom: 5px;
-}
-
-section.galeria h4 {
-  text-align: center; 
-  font-size: 20px;
-}
-
-section.galeria p {
-   padding-bottom: 30px;
 }
 
 section.galeria .item-galeria a img{
@@ -360,60 +296,30 @@ section.galeria .item-galeria a:hover img{
   z-index: 999;
 }
 
+section.galeria p {
+  margin-bottom: 25px;
+}
+
+
 
 /* ---------- */
-
-/* Instagram */
-
-section.instagram{
-  text-align: center;
-  padding: 60px 0px 80px 0px;
-  background-color:white;
-  color:black;
-}
-
-section.instagram p{
-  padding-top:20px;
-}
-
-section.instagram span.hashtag{
-  font-size: 25px;
- 
-  letter-spacing: 3px;
-  text-transform: none;
-}
-
-section.instagram p a{
-  color: var(--color-primario);
-}
-
-section.instagram  img.icon{
-  width: 150px;
-}
-
 
 
 /* CBU */
 
 section.cbu{
   text-align: center;
-  padding: 80px 0;
-  background-color: var(--color-secundario);
+  padding: 40px 0 70px;
+  background-color:var(--color-primario);
 }
 
 section.cbu img.icon{
   width: 150px;
-  margin-bottom: 20px;
 }
 
-section.cbu .cbu-inner {
-  background: #fff;
-  width: 70%;
-  padding: 40px;
-}
 
 section.cbu p{
-  margin-bottom: 20px;
+  color: white;
 }
 
 #hidden-cbu{
@@ -423,11 +329,12 @@ section.cbu p{
 
 
 #hidden-cbu span.title{
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-align: center;
   width: 100%;
   font-size: 25px;
-  color: var(--color-primario)
+  color: var(--color-primario);
 }
 
 
@@ -439,37 +346,114 @@ section.cbu p{
   margin-bottom: 15px;
 }
 
+
 #hidden-cbu ul li a{
-  color:var(--color-primario);
+  color: var(--color-primario);
   text-decoration: underline;
+
 }
 
 /* ---------- */
 
- 
+
+/* CONFIRMAR ASISTENCIA */
+
+section.confirmar-asistencia{
+  text-align: center;
+  padding: 100px 0 80px;
+}
+
+section.confirmar-asistencia h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.confirmar-asistencia p{
+  margin-bottom: 20px;
+}
+
+section.confirmar-asistencia .btn-alt{
+  margin: 10px;
+}
+
+section.confirmar-asistencia img.icon{
+  width: 150px;
+}
+
+/* ---------- */
+
+/* DRESS CODE */
+
+section.dresscode{
+  text-align: center;
+  padding: 70px 0 70px;
+  background-color: var(--color-secundario);
+}
+
+section.dresscode h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section.dresscode p{
+  color: white;
+}
+
+/* ---------- */
+
+
+/* INSTAGRAM */
+
+section.instagram{
+  text-align: center;
+  height: 550px;
+}
+
+section.instagram .contenido{
+  padding: 50px 10px;
+}
+
+section.instagram span.hashtag{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+section.instagram .contenido img.icon{
+  width: 150px;
+}
+
+section.instagram p{
+  margin-top: 20px;
+  margin-bottom:30px;
+}
+
+
+
+/* ---------- */
+
 
 /* CANCIONES */
 
 section.canciones{
   text-align: center;
-  padding: 100px 0 100px;
-}
-
-section.canciones .canciones-inner{
-  background: #fff;
-  width: 80%;
-  padding: 40px;
+  padding: 70px 0 100px;
 }
 
 section.canciones h4 {
-  text-align: center; 
-  margin: 20px 0px 20px 0px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 section.canciones p{
   margin-bottom: 20px;
 }
 
+section.canciones img.icon{
+  width: 150px;
+}
 
 /* ---------- */
 
@@ -478,51 +462,58 @@ section.canciones p{
 section.alojamientos{
   text-align: center;
   padding: 80px 0 80px;
-  background-color:var(--color-primario);
 }
 
-section.alojamientos h4{
-  color: white;
-  margin-bottom: 25px;
+section.alojamientos .contenido{
+  padding: 50px 10px;
+}
+
+section.alojamientos h4 {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 section.alojamientos p{
-  color: white;
+  margin-top: 20px;
+  margin-bottom:30px;
 }
+
 /* ---------- */
 
 /* PROTOCOLO */
 
 section.protocolo{
   text-align: center;
-  padding: 80px 10px 80px 10px;
-  background-color:white;
+  padding: 90px 0 90px;
+  background-color:var(--color-primario);
 }
 
 section.protocolo h4 {
-    margin: 25px;
-    font-size: 22px;
-    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
 }
 
 section.protocolo img.icon{
   width: 150px;
 }
 
+section.protocolo p{
+  color: white;
+}
 
 /* ---------- */
-
 
 /* GRACIAS */
 
 section.gracias{
   text-align: center;
-  padding: 70px 0;
-  background-color: var(--color-secundario);
+  padding: 50px 0;
+  background-color:var(--color-secundario);
 }
 
 section.gracias p{
-  text-align: center;
+  color: white;
 }
 
 
@@ -533,14 +524,15 @@ section.gracias p{
 
 section.menu-footer{
   background: #e6e6e6;
-  padding: 30px 0;
+  padding: 7px 0;
+  text-align: right;
 }
 
-section.menu-footer ul li{
+section.menu-footer a{
   margin: 0 20px;
 }
 
-section.menu-footer ul a{
+section.menu-footer a{
   text-decoration: underline;
   color: #999;
   font-size: 13px;
@@ -555,16 +547,20 @@ section.menu-footer ul a:hover{
 section.footer{
   text-align: center;
   padding: 20px 0;
-  background-color: white;
+  background-color: #666;
 }
 
 section.footer p{
   text-align: center;
+  color: white;
   font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
 }
 
 section.footer a{
-  color: #666;
+  color: white;
 }
 
 
@@ -577,9 +573,6 @@ section.contacto{
 }
 
 section.contacto h4{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  letter-spacing: 3px;
   font-weight: 400;
 }
 
@@ -630,7 +623,7 @@ section.contacto ul li i{
   }
 
   section.ceremonia-fiesta .row .columna:nth-child(2){
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   section.ceremonia-fiesta .row .columna.no-margin-top{
@@ -640,24 +633,6 @@ section.contacto ul li i{
   section.menu-footer ul li{
     margin-top: 10px;
   }
-
-  section.cuenta-regresiva .reloj{
-    width: 100%;
-  }
-
-  section.confirmar-asistencia .asistencia-inner{
-    width: 100%;
-  }
-
-  section.cbu .cbu-inner{
-    width: 100%;
-  }
-
-  .contacto .col-md-6{
-    margin-bottom: 20px;
-  }
-
-
 
 
 }
